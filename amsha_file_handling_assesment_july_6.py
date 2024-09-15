@@ -20,8 +20,8 @@ print(data.info)
 
 print("Number of Null values in files are ",data.isnull().sum().sum())
 
-print("\n-----Datas from row 2 to 6------")
-print(data.iloc[2:7])
+#print("\n-----Datas from row 2 to 6------")
+#print(data.iloc[2:7])
 
 print("\n-----Datas in col 2 and 3 from row 2 to 6------")
 print(data.iloc[1:4,2:4])
